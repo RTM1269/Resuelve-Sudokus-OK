@@ -9,27 +9,28 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center_vertical"
         android:showDividers="middle|beginning|end">
 
         <TableRow
+            android:id="@+id/r0"
             android:layout_width="match_parent"
             android:layout_height="189dp"
-            android:paddingLeft="35dp"
             android:background="@drawable/border"
-            android:id="@+id/r0">
+            android:paddingLeft="35dp">
 
             <LinearLayout
+                android:id="@+id/cuadrado00"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado00">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila000"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila000">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et0000"
@@ -38,7 +39,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0001"
@@ -47,7 +48,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0002"
@@ -56,13 +57,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila001"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila001">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et0010"
@@ -80,7 +81,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0012"
@@ -88,15 +89,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila002"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila002">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et0020"
@@ -104,9 +105,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0021"
@@ -115,7 +116,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0022"
@@ -123,25 +124,25 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/cuadrado01"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado01">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila010"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila010">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et0100"
@@ -150,7 +151,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0101"
@@ -159,7 +160,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0102"
@@ -168,13 +169,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila011"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila011">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et0110"
@@ -182,9 +183,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0111"
@@ -193,7 +194,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0112"
@@ -201,15 +202,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila012"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila012">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et0120"
@@ -217,9 +218,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0121"
@@ -228,7 +229,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0122"
@@ -236,25 +237,25 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/cuadrado02"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado02">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila020"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila020">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et0200"
@@ -263,7 +264,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0201"
@@ -272,7 +273,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0202"
@@ -281,13 +282,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila021"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila021">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et0210"
@@ -295,9 +296,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0211"
@@ -306,7 +307,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0212"
@@ -314,15 +315,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila022"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila022">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et0220"
@@ -330,9 +331,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0221"
@@ -341,7 +342,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et0222"
@@ -349,33 +350,33 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
         </TableRow>
 
         <TableRow
+            android:id="@+id/r1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:paddingLeft="35dp"
-            android:id="@+id/r1">
+            android:paddingLeft="35dp">
 
             <LinearLayout
+                android:id="@+id/cuadrado10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado10">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila100"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila100">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et1000"
@@ -384,7 +385,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1001"
@@ -393,7 +394,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1002"
@@ -402,13 +403,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila101"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila101">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et1010"
@@ -416,9 +417,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1011"
@@ -427,7 +428,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1012"
@@ -435,15 +436,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila102"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila102">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et1020"
@@ -451,9 +452,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1021"
@@ -462,7 +463,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1022"
@@ -470,25 +471,25 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/cuadrado11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado11">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila110"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila110">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et1100"
@@ -497,7 +498,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1101"
@@ -506,7 +507,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1102"
@@ -515,13 +516,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila111"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila111">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et1110"
@@ -529,9 +530,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1111"
@@ -540,7 +541,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1112"
@@ -548,15 +549,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila112"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila112">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et1120"
@@ -564,9 +565,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1121"
@@ -575,7 +576,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1122"
@@ -583,25 +584,25 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/cuadrado12"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado12">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila120"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila120">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et1200"
@@ -610,7 +611,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1201"
@@ -619,7 +620,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1202"
@@ -628,13 +629,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila121"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila121">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et1210"
@@ -642,9 +643,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1211"
@@ -653,7 +654,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1212"
@@ -661,15 +662,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila122"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila122">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et1220"
@@ -677,10 +678,10 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
-                        tools:ignore="DuplicateIds"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center"
+                        tools:ignore="DuplicateIds" />
 
                     <EditText
                         android:id="@+id/et1221"
@@ -689,7 +690,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et1222"
@@ -697,33 +698,33 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
         </TableRow>
 
         <TableRow
+            android:id="@+id/r2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:paddingLeft="35dp"
-            android:id="@+id/r2">
+            android:paddingLeft="35dp">
 
             <LinearLayout
+                android:id="@+id/cuadrado20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado20">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila200"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila200">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et2000"
@@ -732,7 +733,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2001"
@@ -741,7 +742,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2002"
@@ -750,13 +751,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila201"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila201">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et2010"
@@ -764,9 +765,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2011"
@@ -775,7 +776,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2012"
@@ -783,15 +784,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila202"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila202">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et2020"
@@ -799,9 +800,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2021"
@@ -810,7 +811,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2022"
@@ -818,25 +819,25 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/cuadrado21"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado21">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila210"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila210">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et2100"
@@ -845,7 +846,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2101"
@@ -854,7 +855,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2102"
@@ -863,13 +864,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila211"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila211">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et2110"
@@ -877,9 +878,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2111"
@@ -888,7 +889,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2112"
@@ -896,15 +897,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila212"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila212">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et2120"
@@ -912,9 +913,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2121"
@@ -923,7 +924,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2122"
@@ -931,25 +932,25 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/cuadrado22"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado22">
+                android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/fila220"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila220">
+                    android:scrollbarAlwaysDrawHorizontalTrack="false">
 
                     <EditText
                         android:id="@+id/et2200"
@@ -958,7 +959,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2201"
@@ -967,7 +968,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2202"
@@ -976,13 +977,13 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila221"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila221">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et2210"
@@ -990,9 +991,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2211"
@@ -1001,7 +1002,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2212"
@@ -1009,15 +1010,15 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fila222"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila222">
+                    android:layout_height="wrap_content">
 
                     <EditText
                         android:id="@+id/et2220"
@@ -1025,9 +1026,9 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="2"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="2"
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2221"
@@ -1036,7 +1037,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center" />
 
                     <EditText
                         android:id="@+id/et2222"
@@ -1044,706 +1045,13 @@
                         android:layout_height="45dp"
                         android:ems="10"
                         android:inputType="number"
-                        android:text="5"
                         android:maxLength="1"
-                        android:textAlignment="center"/>
+                        android:text="5"
+                        android:textAlignment="center" />
                 </LinearLayout>
 
             </LinearLayout>
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="35dp"
-            android:id="@+id/r3">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado30">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila300">
-
-                    <EditText
-                        android:id="@+id/et3000"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3001"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3002"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila301">
-
-                    <EditText
-                        android:id="@+id/et3010"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3011"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3012"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila302">
-
-                    <EditText
-                        android:id="@+id/et3020"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3021"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3022"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado31">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila310">
-
-                    <EditText
-                        android:id="@+id/et3100"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3101"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3102"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila311">
-
-                    <EditText
-                        android:id="@+id/et3110"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3111"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3112"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5" android:maxLength="1"
-                        android:textAlignment="center"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila312">
-
-                    <EditText
-                        android:id="@+id/et3120"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3121"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3122"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado32">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila320">
-
-                    <EditText
-                        android:id="@+id/et3200"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3201"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3202"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila321">
-
-                    <EditText
-                        android:id="@+id/et3210"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3211"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3212"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila322">
-
-                    <EditText
-                        android:id="@+id/et3220"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3221"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et3222"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5" android:maxLength="1"
-                        android:textAlignment="center"
-                        />
-                </LinearLayout>
-
-            </LinearLayout>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="35dp"
-            android:id="@+id/r4">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado40">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila400">
-
-                    <EditText
-                        android:id="@+id/et4000"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4001"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4002"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila401">
-
-                    <EditText
-                        android:id="@+id/et4010"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4011"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4012"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila402">
-
-                    <EditText
-                        android:id="@+id/et4020"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2" android:maxLength="1"
-                        android:textAlignment="center"
-                        />
-
-                    <EditText
-                        android:id="@+id/et4021"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4022"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado41">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila410">
-
-                    <EditText
-                        android:id="@+id/et4100"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4101"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4102"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila411">
-
-                    <EditText
-                        android:id="@+id/et4110"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4111"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4112"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila412">
-
-                    <EditText
-                        android:id="@+id/et4120"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4121"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4122"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginRight="15dp"
-                android:orientation="vertical"
-                android:id="@+id/cuadrado42">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:scrollbarAlwaysDrawHorizontalTrack="false"
-                    android:id="@+id/fila420">
-
-                    <EditText
-                        android:id="@+id/et4200"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4201"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4202"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila421">
-
-                    <EditText
-                        android:id="@+id/et4210"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4211"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4212"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/fila422">
-
-                    <EditText
-                        android:id="@+id/et4220"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="2"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4221"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-
-                    <EditText
-                        android:id="@+id/et4222"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:ems="10"
-                        android:inputType="number"
-                        android:text="5"
-                        android:maxLength="1"
-                        android:textAlignment="center"/>
-                </LinearLayout>
-
-            </LinearLayout>
-        </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
