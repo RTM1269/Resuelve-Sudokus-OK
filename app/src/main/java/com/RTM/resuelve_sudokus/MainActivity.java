@@ -42,7 +42,6 @@ private String[] lista_et;
                 }
             }
         comprobarFilas();
-        // imprimirListaEditText();
     }
     public void imprimirListaEditText(){
         for (int i=0; i<lista_et.length;i++){
