@@ -41,12 +41,36 @@ private String[] lista_et;
                     }
                 }
             }
+        comprobarFilas();
+        // imprimirListaEditText();
     }
     public void imprimirListaEditText(){
         for (int i=0; i<lista_et.length;i++){
             Log.d("idS",lista_et[i]);
         }
     }
+    public void comprobarFilas(){
+        String[] nums ={"","","","","","","","",""};//9 huecosn por 9 posibles numeros
+        int i=0;
+        int j=0;
+        while (i<9){
+            for (int k = j; k<k+3; k++) {
+                //instanciamos temporalmente el editText
+             //   Log.i("p",lista_et[k]);
+                int etID = getResources().getIdentifier(lista_et[k],"id",getPackageName());
+                etn = (EditText) findViewById(etID);
+                //accedemos a su texto y recogemos su valor en NUMs
+                nums[i]=etn.getText().toString();
+                if (i<9){
+                    i++;
+                }
 
+            }
+            j=j+7;
+        }
+        for (int w=0; w<nums.length;w++){
+            Log.i("numeros:",nums[w]);
+        }
+    }
 
 }
